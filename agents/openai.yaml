@@ -1,0 +1,7 @@
+interface:
+  display_name: "物理实验报告终稿"
+  short_description: "中文物理实验 Word 报告：真实下划线信息栏、横向宽表、下方图表题注与逐页排版检查"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-physics-lab-report，根据本次原始数据和课程要求完成 Word 实验报告。"
+policy:
+  allow_implicit_invocation: true
