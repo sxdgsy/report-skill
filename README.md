@@ -21,7 +21,7 @@ Copy-Item -LiteralPath .\report-skill -Destination "$env:USERPROFILE\.codex\skil
 
 ```text
 使用 $artifact-template-physics-lab-report，根据我上传的原始数据和课程要求完成 Word 报告。
-只包含原始数据、数据处理、分析体会、课后习题四部分。
+只包含原始数据、数据分析、课后题三部分。
 ```
 
 本次课程模板和用户要求优先。姓名、学号、班级、座位号、日期均留空，必须由本次资料提供。不要将“开源技能”误认为可以代造实验数据。
