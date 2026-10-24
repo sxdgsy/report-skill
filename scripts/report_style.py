@@ -73,7 +73,7 @@ def create_report(reference=None,experiment='',class_name='',name='',student_id=
     p=paragraph(doc,'',12)
     for label,value in [('班级：',class_name),('姓名：',name),('学号：',student_id),('座位号：',seat)]:
         field(p,label,value);format_run(p.add_run('  '),12)
-    for title in sections or ['一、原始数据','二、数据处理','三、分析体会','四、课后习题']:
+    for title in sections or ['一、原始数据','二、数据分析','三、课后题']:
         paragraph(doc,title,16,heading=True)
     return doc
 
